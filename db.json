@@ -1,0 +1,614 @@
+{
+  "admin": [
+    {
+      "admin_name": "admin",
+      "admin_password": "1234"
+    }
+  ],
+  "subject": [
+    {
+      "subject_name": "Maths",
+      "id": 1
+    },
+    {
+      "subject_name": "English",
+      "id": 2
+    },
+    {
+      "subject_name": "Micro",
+      "id": 3
+    },
+    {
+      "subject_name": "Val",
+      "id": 4
+    },
+    {
+      "subject_name": "PTSP",
+      "id": 5
+    }
+  ],
+  "Exam": [
+    {
+      "id": 1,
+      "exam_name": "Maths",
+      "exam_desc": "This is Math Exam",
+      "exam_date": "19-5-2023 17:49:39",
+      "exam_marks": "5",
+      "exam_totalQuestion": "5",
+      "exam_passMarks": "3",
+      "exam_level": "Easy"
+    },
+    {
+      "exam_name": "Micro",
+      "exam_desc": "ut 2",
+      "exam_level": "easy",
+      "exam_passMarks": "3",
+      "exam_totalQuestion": "5",
+      "exam_marks": "5",
+      "exam_date": "20-5-2023 13:35:29",
+      "id": 3
+    },
+    {
+      "exam_name": "Maths",
+      "exam_desc": "another maths exam",
+      "exam_level": "easy",
+      "exam_passMarks": "4",
+      "exam_totalQuestion": "5",
+      "exam_marks": "5",
+      "exam_date": "20-5-2023 13:49:10",
+      "id": 4
+    },
+    {
+      "exam_name": "PTSP",
+      "exam_desc": "sss",
+      "exam_level": "ez",
+      "exam_passMarks": "1",
+      "exam_totalQuestion": "4",
+      "exam_marks": "4",
+      "exam_date": "23-6-2023 12:16:6",
+      "id": 6
+    }
+  ],
+  "Question": [
+    {
+      "id": 1,
+      "question_name": "10-5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "2",
+      "option_four": "5",
+      "question_answer": "5",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "id": 2,
+      "question_name": "10+5 ?",
+      "option_one": "3",
+      "option_two": "1",
+      "option_three": "4",
+      "option_four": "15",
+      "question_answer": "15",
+      "exam_id": 1,
+      "subject_name": "Maths"
+    },
+    {
+      "question_name": "10*5",
+      "option_one": "10",
+      "option_two": "5",
+      "option_three": "50",
+      "option_four": "2",
+      "question_answer": "50",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 3
+    },
+    {
+      "question_name": "110-10 ?",
+      "option_one": "110",
+      "option_two": "100",
+      "option_three": "10",
+      "option_four": "1",
+      "question_answer": "100",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 4
+    },
+    {
+      "question_name": "10/2 = ?",
+      "option_one": "1",
+      "option_two": "5",
+      "option_three": "10",
+      "option_four": "7",
+      "question_answer": "5",
+      "exam_id": "1",
+      "subject_name": "Maths",
+      "id": 5
+    },
+    {
+      "question_name": "1-1",
+      "option_one": "0",
+      "option_two": "65",
+      "option_three": "2",
+      "option_four": "6",
+      "question_answer": "0",
+      "exam_id": "3",
+      "subject_name": "Micro",
+      "id": 6
+    },
+    {
+      "question_name": "5*3",
+      "option_one": "33",
+      "option_two": "123",
+      "option_three": "55",
+      "option_four": "15",
+      "question_answer": "15",
+      "exam_id": "3",
+      "subject_name": "Micro",
+      "id": 7
+    },
+    {
+      "question_name": "3+2",
+      "option_one": "2",
+      "option_two": "5",
+      "option_three": "6",
+      "option_four": "1",
+      "question_answer": "5",
+      "exam_id": "3",
+      "subject_name": "Micro",
+      "id": 8
+    },
+    {
+      "question_name": "56+0",
+      "option_one": "56",
+      "option_two": "123",
+      "option_three": "634",
+      "option_four": "3151423",
+      "question_answer": "56",
+      "exam_id": "3",
+      "subject_name": "Micro",
+      "id": 9
+    },
+    {
+      "question_name": "12-6",
+      "option_one": "213",
+      "option_two": "56",
+      "option_three": "34",
+      "option_four": "6",
+      "question_answer": "6",
+      "exam_id": "3",
+      "subject_name": "Micro",
+      "id": 10
+    },
+    {
+      "question_name": "5+5",
+      "option_one": "10",
+      "option_two": "12",
+      "option_three": "454",
+      "option_four": "6534",
+      "question_answer": "10",
+      "exam_id": "3",
+      "subject_name": "Micro",
+      "id": 11
+    },
+    {
+      "question_name": "4+6",
+      "option_one": "10",
+      "option_two": "52",
+      "option_three": "57",
+      "option_four": "3425",
+      "question_answer": "10",
+      "exam_id": "4",
+      "subject_name": "Maths",
+      "id": 12
+    },
+    {
+      "question_name": "2*8",
+      "option_one": "125",
+      "option_two": "6",
+      "option_three": "36",
+      "option_four": "16",
+      "question_answer": "16",
+      "exam_id": "4",
+      "subject_name": "Maths",
+      "id": 13
+    },
+    {
+      "question_name": "9-3",
+      "option_one": "6",
+      "option_two": "2",
+      "option_three": "45",
+      "option_four": "4",
+      "question_answer": "6",
+      "exam_id": "4",
+      "subject_name": "Maths",
+      "id": 14
+    },
+    {
+      "question_name": "5+3",
+      "option_one": "51235",
+      "option_two": "46",
+      "option_three": "344",
+      "option_four": "8",
+      "question_answer": "8",
+      "exam_id": "4",
+      "subject_name": "Maths",
+      "id": 15
+    },
+    {
+      "question_name": "4+1",
+      "option_one": "6",
+      "option_two": "3",
+      "option_three": "5",
+      "option_four": "6",
+      "question_answer": "5",
+      "exam_id": "4",
+      "subject_name": "Maths",
+      "id": 16
+    },
+    {
+      "question_name": "7*2",
+      "option_one": "100",
+      "option_two": "23",
+      "option_three": "14",
+      "option_four": "75",
+      "question_answer": "14",
+      "exam_id": "6",
+      "subject_name": "PTSP",
+      "id": 22
+    }
+  ],
+  "Result": [
+    {
+      "id": 1,
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "shubh@gmail.com",
+      "exam_date": "12-5-23",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "id": 2,
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "shubh@gmail.com",
+      "exam_date": "12-5-23",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "id": 3,
+      "result_status": "Pass",
+      "result_score": "3",
+      "user_email": "utkarsh@gmail.com",
+      "exam_date": "12-5-23",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5"
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "18-5-23 20:49:39",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 4
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "zoro@gmail.com",
+      "exam_date": "19-5-23 15:11:27",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 5
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "brook@gmail.com",
+      "exam_date": "19-5-23 15:20:37",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 6
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "brook@gmail.com",
+      "exam_date": "20-5-2023 12:42:15",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 7
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "brook@gmail.com",
+      "exam_date": "20-5-2023 12:51:59",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 8
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "brook@gmail.com",
+      "exam_date": "20-5-2023 12:52:8",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 9
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 2,
+      "user_email": "brook@gmail.com",
+      "exam_date": "20-5-2023 13:25:20",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 10
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "brook@gmail.com",
+      "exam_date": "20-5-2023 13:25:40",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "2",
+      "total_Question": "5",
+      "id": 11
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "brook@gmail.com",
+      "exam_date": "20-5-2023 13:34:53",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 12
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 5,
+      "user_email": "brook@gmail.com",
+      "exam_date": "20-5-2023 13:39:28",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "3",
+      "total_Question": "5",
+      "id": 13
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "brook@gmail.com",
+      "exam_date": "20-5-2023 13:39:53",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 14
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 5,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "20-5-2023 13:47:33",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "3",
+      "total_Question": "5",
+      "id": 15
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "20-5-2023 13:47:53",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 16
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 4,
+      "user_email": "utkarsh@gmail.com",
+      "exam_date": "20-5-2023 13:53:25",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "4",
+      "total_Question": "5",
+      "id": 17
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 5,
+      "user_email": "zoro@gmail.com",
+      "exam_date": "20-5-2023 13:53:51",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "4",
+      "total_Question": "5",
+      "id": 18
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 1,
+      "user_email": "tenz@sen.city",
+      "exam_date": "20-5-2023 13:57:42",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "3",
+      "total_Question": "5",
+      "id": 19
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "21-5-2023 23:57:19",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 20
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 5,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "21-5-2023 23:57:39",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "4",
+      "total_Question": "5",
+      "id": 21
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "21-5-2023 23:57:55",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "3",
+      "total_Question": "5",
+      "id": 22
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 1,
+      "user_email": "tenz@sen.city",
+      "exam_date": "22-5-2023 0:2:45",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "5",
+      "total_Question": "5",
+      "id": 23
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "23-6-2023 1:41:0",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "4",
+      "total_Question": "5",
+      "id": 24
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "23-6-2023 1:41:2",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "4",
+      "total_Question": "5",
+      "id": 25
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 5,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "23-6-2023 1:41:49",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "3",
+      "total_Question": "5",
+      "id": 26
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 1,
+      "user_email": "utkarsh@gmail.com",
+      "exam_date": "23-6-2023 12:19:18",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "5",
+      "total_Question": "5",
+      "id": 27
+    },
+    {
+      "result_status": "Fail",
+      "result_score": 0,
+      "user_email": "zoro@gmail.com",
+      "exam_date": "23-6-2023 12:54:31",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 28
+    },
+    {
+      "result_status": "Pass",
+      "result_score": 3,
+      "user_email": "shubh@gmail.com",
+      "exam_date": "23-6-2023 13:24:8",
+      "exam_name": "Maths",
+      "total_marks": "5",
+      "exam_id": "1",
+      "total_Question": "5",
+      "id": 29
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "user_name": "shubh",
+      "user_email": "shubh@gmail.com",
+      "user_password": "123"
+    },
+    {
+      "id": 2,
+      "user_name": "utkarsh",
+      "user_email": "utkarsh@gmail.com",
+      "user_password": "123"
+    },
+    {
+      "user_name": "zoro",
+      "user_email": "zoro@gmail.com",
+      "user_password": "123",
+      "id": 3
+    },
+    {
+      "user_name": "brook",
+      "user_email": "brook@gmail.com",
+      "user_password": "123",
+      "id": 4
+    },
+    {
+      "user_name": "Tenz",
+      "user_email": "tenz@sen.city",
+      "user_password": "123",
+      "id": 5
+    }
+  ]
+}
